@@ -1,0 +1,28 @@
+
+/* Hero Section */
+#Hero-Section {
+    background-color: black;
+    background-image: url("../img/selfi.jpg");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: left;
+  }
+  h1 {
+    text-align: center;
+  }
+
+  /* Mis trabajos */
+
+#Mis-trabajos .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+#mis-trabajos .img {
+    height: 400px;
+}
+  /* contacto */
+form { 
+    padding: 2rem;
+}
