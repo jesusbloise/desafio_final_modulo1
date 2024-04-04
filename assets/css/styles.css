@@ -2,9 +2,10 @@
 /* Hero Section */
 #Hero-Section {
     background-color: black;
-    background-image: url("../img/selfi.jpg");
+      --opacidad-negro: 0.5;
+      background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/cielo.jpg");
     background-repeat: no-repeat;
-    background-size: 25%;
+    background-size: 100%;
     background-position: left;
   }
   h1 {
